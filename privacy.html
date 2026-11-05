@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Midnight Whispers Analytics Privacy Policy</title>
+<style>
+  :root {
+    --bg: #faf8f5;
+    --fg: #1f1b17;
+    --muted: #6b6258;
+    --accent: #7a3b2e;
+    --rule: #e3dcd3;
+    --font-display: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1a1714;
+      --fg: #ece7e1;
+      --muted: #a79d92;
+      --accent: #d88a73;
+      --rule: #332c26;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1a1714;
+    --fg: #ece7e1;
+    --muted: #a79d92;
+    --accent: #d88a73;
+    --rule: #332c26;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-body);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-block: 56px 80px;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    line-height: 1.15;
+    margin: 0 0 6px;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    margin: 36px 0 10px;
+    color: var(--accent);
+  }
+  p, li {
+    font-size: 0.98rem;
+    line-height: 1.6;
+    max-width: 65ch;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 1.2em; }
+  li { margin-bottom: 8px; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 44px 0;
+  }
+  a { color: var(--accent); }
+  .contact {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Midnight Whispers Analytics &middot; Last updated November 5, 2026</p>
+
+  <p>Midnight Whispers Analytics is a personal, single-user integration built by the operator of the Midnight Whispers content channel. It exists solely to let that one person view their own TikTok account's performance data through TikTok's official API, inside their own development tools. It is not offered as a public service, and no one other than the account owner can use it.</p>
+
+  <hr>
+
+  <h2>What this connects to</h2>
+  <p>When the account owner authorizes this app through TikTok's Login Kit, it is granted read-only access to:</p>
+  <ul>
+    <li>Basic profile information &mdash; display name, avatar, open ID</li>
+    <li>Profile details &mdash; bio, profile links, verification status</li>
+    <li>Account statistics &mdash; follower count, following count, total likes, video count</li>
+    <li>Public video listings and their engagement metrics &mdash; views, likes, comments, shares</li>
+  </ul>
+
+  <h2>How this data is used</h2>
+  <p>Data is fetched live from TikTok's API, on request, to display the account owner's own analytics back to them. It is used for no other purpose &mdash; no advertising, no profiling, no analytics beyond what's described here, and no resale or transfer to any third party.</p>
+
+  <h2>Where this data is stored</h2>
+  <p>This integration runs entirely on the account owner's own machine. The OAuth access and refresh tokens are stored locally in that environment and are never transmitted anywhere other than directly to TikTok's own API. No separate server or database holds a copy of this data.</p>
+
+  <h2>Revoking access</h2>
+  <p>The account owner can revoke this app's access at any time from TikTok's own account settings (Settings and privacy &rarr; Security and permissions &rarr; Manage apps). Revoking access immediately invalidates the stored tokens.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>Because this is a single-user personal tool, this policy will only change if the way the integration itself works changes. The "last updated" date above reflects the most recent such change.</p>
+
+  <hr>
+
+  <p class="contact">Contact: <a href="mailto:jitenmadlani56@hotmail.com">jitenmadlani56@hotmail.com</a></p>
+</main>
+</body>
+</html>
